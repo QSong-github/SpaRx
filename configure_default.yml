@@ -1,0 +1,27 @@
+Name: datasets
+DATASET:
+  Source_data_root: datasets/source_data.csv
+  Source_label_root: datasets/source_label.csv
+  Source_adj_root: datasets/source_adj.csv
+  target_data_root: datasets/target_data.csv
+  target_label_root: datasets/target_label.csv
+  target_adj_root: datasets/target_adj.csv
+MODEL:
+  NAME: tf_model
+  INPUT_DIM: 6922
+  Conv: TransformerConv
+  NUM_HIDDENS: [512,64] # tuning
+  num_classes: 2
+TRAIN:
+  lr: 0.001000 # 1e-3
+  Epochs: 10 # 1000
+  Save_path: ./checkpoint
+  Momentum: 0.9 # tuning
+  Weight_decay: 5e-5 # tuning
+  grad_clip: 5 # tuning
+TEST:
+  Save_path: ./checkpoint/best_f1.pth
+  Pred: ./results
+  Verbose: 0
+SEED: 42
+Use_CUDA: True
