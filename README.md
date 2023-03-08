@@ -2,7 +2,7 @@
 
 Spatial cellular heterogeneity contributes to the disease complexity and therapeutic resistance, which commonly involve the interplay between different cell types within the microenvironment. Recent advances of spatial technologies enable the elucidation of single cell heterogeneity with spatial locations that offer remarkable opportunities to understand the cellular interplays and molecular processes involved in therapeutic resistance. In this work, we proposed a novel domain adaptation method, i.e., SpaRx, to reveal the heterogeneity of spatial cellular responses to drugs, via leveraging pharmacogenomics knowledgebase and single-cell spatial profiles. Further application of SpaRx to the state-of-art single-cell spatial transcriptomics data reveals that tumor cells in different locations of tumor lesion present heterogenous levels of sensitive or resistance to drugs. Moreover, resistant tumor cells interact with themselves and the surrounding constituents to form ecosystem capable of drug resistance. Collectively, SpaRx enables the prioritization and interpretation of spatially organized cells in complex tissue, to unveil the molecular mechanisms underpinning drug resistance, which will empower precision medicine by identifying personalized drug targets, effective drug combinations, and drug repositioning.
 
-![Image text](https://github.com/QSong-github/SpaRx/src/Figure 1.png)
+![Image text](https://github.com/QSong-github/SpaRx/raw/main/Figure%201.png)
 
 ## Highlights
 * SpaRx bridges the gap between drug screening knowledgebase and single-cell spatial transcriptomcis data.
