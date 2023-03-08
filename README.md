@@ -51,7 +51,6 @@ You can download SpaRx from our github link:
   ```
   pip install -r requirements.txt
   ```
-
 * __I want to try the toy demo, can I run SpaRx in one command line?__    
   You can use the following commands:
   ```
@@ -62,7 +61,6 @@ You can download SpaRx from our github link:
   ```
   ssh run_SpaRx.sh
   ```
-
 * __How can I apply SpaRx in my own dataset? And how to generate the desired format for SpaRx?__         
     Please prepare your data following the format we provided in the example data.
 
