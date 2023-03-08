@@ -27,7 +27,7 @@ Spatial cellular heterogeneity contributes to the disease complexity and therape
 ssh run_SpaxRx.sh
 ```
 
-## train your own data
+## Train your own data
 you can change the data direction and other hyperparameters in the configure_default.yml
 
 ## FAQ
@@ -67,7 +67,7 @@ You can download SpaRx from our github link:
 * __How can I tune SpaRx model for best performance?__         
      You can use the following commands:
     ```
-    ssh run_SpaRx_tuning.sh
+    ssh SpaRx_tuning.sh
     ```
 
 * __Do I need a GPU for running SpaRx?__    
