@@ -79,5 +79,4 @@ You can download SpaRx from our github link:
     python configuration.py 
     ```
 
-## Please cite: 
-Tang Z, Zhang T, Yang B, Su J, Song Q, SpaRx: lucidate spatial heterogeneity of drug sensitivity for personalized treatment
+
