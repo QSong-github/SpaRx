@@ -137,7 +137,7 @@ def train(cfg):
     return best_loss, f1
 
 if __name__ == '__main__':
-    yaml_file = 'para_tune.yml'
+    yaml_file = 'parameter_tune.yml'
     txt = open('para_tune_log.txt', 'a')
     with open(yaml_file) as f:
         cfg = yaml.load(f, Loader=yaml.FullLoader)
