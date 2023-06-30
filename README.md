@@ -38,13 +38,17 @@ You can download SpaRx from our github link:
   SpaRx is built based on pytorch, tested in Ubuntu 18.04, CUDA environment(cuda 11.2)
   the requirement packages includes:
   ```
-  torchvision==0.11.1
-  torch==1.6.0
-  tqdm==4.47.0
-  typing==3.7.4.3
-  numpy==1.13.3
-  pandas==1.5.1
+  torchvision==0.12.0+cu113
+  torch==1.11.0
+  tqdm==4.63.0
+  numpy==1.21.6
+  pandas==1.3.5
   PyYAML==6.0
+  torch_geometric==2.1.0
+  torch_geometric==2.1.0
+  torch_scatter==2.0.9
+  torch_sparse==0.6.15
+  torch_cluster==1.6.0
   ```
   or you can also use the following scripts:
   ```
