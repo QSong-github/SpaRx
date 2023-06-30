@@ -18,7 +18,7 @@ def val(cfg, model, tar):
     label = tar.y.detach().cpu()
 
     f1 = eval_results(pred, label, cfg['TEST']['Verbose'])
-    print("f1 is %.4f"%(f1))
+    # print("f1 is %.4f"%(f1))
     return f1
 
 @torch.no_grad()
@@ -40,6 +40,7 @@ def test(cfg):
 
     label = tar.y.detach().cpu()
     f1 = eval_results(pred, label)
+    # print(f1.item())
 
     # save pred to csv
     True_label = label.numpy()
@@ -48,8 +49,8 @@ def test(cfg):
     df['pred'] = pred.numpy()
     df['true_label'] = True_label
 
-    # if not os.path.exists(os.path.join('results', cfg['Name'])):
-    #     os.makedirs(os.path.join('results', cfg['Name']))
+    if not os.path.exists(os.path.join('results', cfg['Name'])):
+        os.makedirs(os.path.join('results', cfg['Name']), exist_ok=True)
     
     df.to_csv(os.path.join(cfg['TEST']['Pred'],'prediction.csv'))        
     return f1
@@ -82,13 +83,13 @@ def save_emb(cfg):
     tar_emb = tar_emb.detach().cpu().numpy()
 
     df = pd.DataFrame(src_emb, index=src_index)
-    # if not os.path.exists(os.path.join('results', cfg['Name'])):
-    #     os.makedirs(os.path.join('results', cfg['Name']))
+    if not os.path.exists(os.path.join('results', cfg['Name'])):
+        os.makedirs(os.path.join('results', cfg['Name']), exist_ok=True)
     df.to_csv(os.path.join(cfg['TEST']['Pred'],'src_emb.csv'))        
 
     df = pd.DataFrame(tar_emb, index=tar_index)
     df.to_csv(os.path.join(cfg['TEST']['Pred'],'tar_emb.csv'))        
-    
+
 def train(cfg):
     # build data
     src_data_root = cfg['DATASET']['Source_data_root']
@@ -108,7 +109,7 @@ def train(cfg):
                             label_root=tar_label_root)
 
     best_loss = 10000000
-    # best_f1 = 0
+    best_f1 = 0
     best_epoch = 0
     # # build up model
     model = TLModel(cfg)
@@ -121,18 +122,19 @@ def train(cfg):
 
         # print_loss_stat(loss_stat, epoch, cfg['TRAIN']['Epochs'])
 
-        # f1 = val(cfg, model, tar)
-        # if best_f1 < f1:
-        #     model.save('best_f1')
-        #     best_f1 = f1
-        #     best_epoch = epoch
+        f1 = val(cfg, model, tar)
+        if best_f1 < f1:
+            model.save('best_f1')
+            best_f1 = f1
+            best_epoch = epoch
         if best_loss > loss:
             model.save('best_loss')
             best_loss = loss
             best_epoch = epoch
+    model.save('last')
     #src_emb, tar_emb = model.get_emb()
     f1 = val(cfg, model, tar)
-    print('f1 is %.4f'%(f1))
+    # print('f1 is %.4f'%(f1))
 
 if __name__ == '__main__':
 

@@ -15,21 +15,21 @@ def main():
     
     # model
     parser.add_argument('--modelname', type=str, default='tf_model')
-    parser.add_argument('--input_dim', type=int, default=4000)
+    parser.add_argument('--input_dim', type=int, default=6992)
     parser.add_argument('--conv', type=str, default='TransformerConv') # GCNConv; GATConv
     parser.add_argument('--NUM_HIDDENS', type=str, default='512,64')
     parser.add_argument('--num_class', type=int, default=2)
 
     # train
     parser.add_argument('--lr', type=float, default=1e-3)
-    parser.add_argument('--epochs', type=int, default=1000) 
+    parser.add_argument('--epochs', type=int, default=100) 
     parser.add_argument('--save_path', type=str, default='./checkpoint')
     parser.add_argument('--momentum', type=float, default=0.9)
     parser.add_argument('--weight_decay', type=float, default=5e-5)
     parser.add_argument('--grad_clip', type=float, default=5)
 
     # test
-    parser.add_argument('--test_save_path', type=str, default='best_model.pth')
+    parser.add_argument('--test_save_path', type=str, default='best_f1.pth')
     parser.add_argument('--pred', type=str, default='./results')
     parser.add_argument('--verbose', type=int, default=0)
 

@@ -240,7 +240,7 @@ class TLModel(nn.Module):
         dc = dc + tmpd_c.cpu().item()
         dm = dm + 2 * (1 - 2 * global_loss.cpu().item())
 
-        self.loss = soft_loss + joint_loss
+        self.loss = soft_loss - joint_loss
 
         self.loss_stat['overall_loss'] = self.loss
         self.loss_stat['src_celoss'] = soft_loss
@@ -268,7 +268,7 @@ class TLModel(nn.Module):
 
     def save(self, name):
         if not os.path.exists(self.save_path):
-            os.makedirs(self.save_path)
+            os.makedirs(self.save_path, exist_ok=True)
         torch.save(self.model.state_dict(), os.path.join(self.save_path, name+'.pth'))
 
     def load(self, path):
@@ -345,7 +345,7 @@ class Src_Model(nn.Module):
 
     def save(self, name):
         if not os.path.exists(self.save_path):
-            os.makedirs(self.save_path)
+            os.makedirs(self.save_path, exist_ok=True)
         torch.save(self.model.state_dict(), os.path.join(self.save_path, name+'.pth'))
 
     def load(self, path):
