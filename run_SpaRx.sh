@@ -16,18 +16,18 @@ savemodel='./checkpoint/saved_model.pth'
 resdir='./results'
 
 python  configuration.py \
-		       --data_dir   $name \
-	               --source_data  $src_data \
-		       --source_label $src_lab \
-		       --source_adj   $src_adj \
-	               --target_data  $tar_data \
-		       --target_label $tar_lab \
-		       --target_adj   $tar_adj \
-		       --input_dim 6922 \
-		       --conv $conv \
-		       --epochs 109 \
-		       --save_path  $savemdir \
-		       --test_save_path  $savemodel \
-		       --pred  $resdir  \
+	 --data_dir   $name \
+	 --source_data  $src_data \
+	 --source_label $src_lab \
+	 --source_adj   $src_adj \
+	 --target_data  $tar_data \
+	 --target_label $tar_lab \
+	 --target_adj   $tar_adj \
+	 --input_dim 6922 \
+	 --conv $conv \
+	 --epochs 109 \
+	 --save_path  $savemdir \
+	 --test_save_path  $savemodel \
+	 --pred  $resdir 
 
 python  main_func.py
