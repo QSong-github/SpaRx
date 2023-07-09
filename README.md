@@ -59,7 +59,7 @@ You can download SpaRx from our github link:
 * __I want to try the toy demo, can I run SpaRx in one command line?__    
   You can use the following commands:
   ```
-  python configuration.py 
+  python  configuration.py 
   python  main_func.py
   ```
   or 
