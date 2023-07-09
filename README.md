@@ -37,7 +37,7 @@ You can download SpaRx from our github link:
   ```
   git clone https://github.com/QSong-github/SpaRx.git
   ```
-  SpaRx is built based on pytorch, tested in Ubuntu 18.04, CUDA environment(cuda 11.2)
+  SpaRx is built based on pytorch, tested in Ubuntu 18.04, CUDA environment(cuda 11.3)
   the requirement packages includes:
   ```
   torchvision==0.12.0+cu113
