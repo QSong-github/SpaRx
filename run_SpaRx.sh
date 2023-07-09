@@ -15,7 +15,7 @@ savemdir='./checkpoint'
 savemodel='./checkpoint/saved_model.pth'
 resdir='./results'
 
-/Users/qianqian/.pyenv/versions/3.7.9/bin/python  configuration.py \
+python  configuration.py \
 		       --data_dir   $name \
 	               --source_data  $src_data \
 		       --source_label $src_lab \
@@ -30,4 +30,4 @@ resdir='./results'
 		       --test_save_path  $savemodel \
 		       --pred  $resdir  \
 
-/Users/qianqian/.pyenv/versions/3.7.9/bin/python  main_func.py
+python  main_func.py
