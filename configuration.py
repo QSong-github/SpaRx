@@ -69,20 +69,8 @@ def main():
     for d in feature_extractor[1:]:
         yml.write(',%d'%(d))
     yml.write(']\n')
-    # yml.write('  Bottleneck: %d\n'%(opt.bottleneck))
-    # classifier = opt.classifier.split(',')
-    # classifier = [int(x) for x in classifier]
-    # yml.write('  Classifier: [%d'%(classifier[0]))
-    # for d in classifier[1:]:
-    #     yml.write(',%d'%(d))
-    # yml.write(']\n')
-    yml.write('  num_classes: %s\n'%(opt.num_class))
-    
 
-    save_path = opt.save_path
-    save_path = os.path.join(save_path, name)
-    opt.save_path = save_path
-    opt.test_save_path = os.path.join(opt.save_path, opt.test_save_path)
+    yml.write('  num_classes: %s\n'%(opt.num_class))
 
     yml.write('TRAIN:\n')
     yml.write('  lr: %f\n'%(opt.lr))
