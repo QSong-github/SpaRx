@@ -29,7 +29,7 @@ def main():
     parser.add_argument('--grad_clip', type=float, default=5)
 
     # test
-    parser.add_argument('--test_save_path', type=str, default='best_f1.pth')
+    parser.add_argument('--test_save_path', type=str, default='best_model.pth')
     parser.add_argument('--pred', type=str, default='./results')
     parser.add_argument('--verbose', type=int, default=0)
 
