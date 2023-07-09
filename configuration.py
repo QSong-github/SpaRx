@@ -69,7 +69,6 @@ def main():
     for d in feature_extractor[1:]:
         yml.write(',%d'%(d))
     yml.write(']\n')
-
     yml.write('  num_classes: %s\n'%(opt.num_class))
 
     yml.write('TRAIN:\n')
