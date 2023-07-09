@@ -37,7 +37,7 @@ def main():
     parser.add_argument('--seed', type=int, default=42)
 
     # cuda
-    parser.add_argument('--use_cuda', type=str,default=True)
+    parser.add_argument('--use_cuda', type=str,default=False)
 
     # yml name
     parser.add_argument('--ymlname', type=str, default='configure_default.yml')
