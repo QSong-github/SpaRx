@@ -12,7 +12,7 @@ conv='TransformerConv'
 mkdir 'checkpoint'
 mkdir 'results'
 savemdir='./checkpoint'
-savemodel='./checkpoint/best_f1.pth'
+savemodel='./checkpoint/best_model.pth'
 resdir='./results'
 
 python  configuration.py \
