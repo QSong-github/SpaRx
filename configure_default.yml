@@ -20,7 +20,7 @@ TRAIN:
   Weight_decay: 0.000050
   grad_clip: 5
 TEST:
-  Save_path: ./checkpoint/saved_model.pth
+  Save_path: ./checkpoint/best_f1.pth
   Pred: ./results
   Verbose: 0
 SEED: 42
