@@ -8,19 +8,19 @@ DATASET:
   target_adj_root: datasets/target_adj.csv
 MODEL:
   NAME: tf_model
-  INPUT_DIM: 6922
+  INPUT_DIM: 2000
   Conv: TransformerConv
-  Feature_extractor: [128,16]
+  NUM_HIDDENS: [128,16]
   num_classes: 2
 TRAIN:
   lr: 0.001000
-  Epochs: 10
+  Epochs: 100
   Save_path: ./checkpoint
-  Momentum: 0.999000
-  Weight_decay: 0.000100
+  Momentum: 0.800000
+  Weight_decay: 0.000050
   grad_clip: 5
 TEST:
-  Save_path: ./checkpoint/best_loss.pth
+  Save_path: best_loss.pth
   Pred: ./results
   Verbose: 0
 SEED: 42

@@ -12,10 +12,10 @@ conv='TransformerConv'
 mkdir 'checkpoint'
 mkdir 'results'
 savemdir='./checkpoint'
-savemodel='./checkpoint/best_model.pth'
+savemodel='./checkpoint/best_f1.pth'
 resdir='./results'
 
-python  configuration.py \
+/Users/qianqian/.pyenv/versions/3.7.9/bin/python  configuration.py \
 	 --data_dir   $name \
 	 --source_data  $src_data \
 	 --source_label $src_lab \
@@ -23,11 +23,11 @@ python  configuration.py \
 	 --target_data  $tar_data \
 	 --target_label $tar_lab \
 	 --target_adj   $tar_adj \
-	 --input_dim 6922 \
+	 --input_dim 2000 \
 	 --conv $conv \
-	 --epochs 109 \
+	 --epochs 200 \
 	 --save_path  $savemdir \
 	 --test_save_path  $savemodel \
 	 --pred  $resdir 
 
-python  main_func.py
+/Users/qianqian/.pyenv/versions/3.7.9/bin/python  main_func.py

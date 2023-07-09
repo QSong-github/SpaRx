@@ -33,7 +33,7 @@ do
                     for gd in 1 3 5 7 9
                     do 
 			nhim="$d1,$d2"
-			python3  configuration.py \
+			/Users/qianqian/.pyenv/versions/3.7.9/bin/python3  configuration.py \
 				 --data_dir   $name \
 				 --source_data  $src_data \
 				 --source_label $src_lab \
@@ -41,7 +41,7 @@ do
 				 --target_data  $tar_data \
 				 --target_label $tar_lab \
 				 --target_adj   $tar_adj \
-				 --input_dim 6922 \
+				 --input_dim 2000 \
 				 --conv $conv \
 				 --epochs $epoch \
 				 --save_path  $savemdir \
@@ -52,7 +52,7 @@ do
 				 --momentum $momen \
 				 --weight_decay $wd \
 				 --grad_clip $gd
-			python3  parameter_tune.py
+			/Users/qianqian/.pyenv/versions/3.7.9/bin/python  parameter_tune.py
                     done
 		done
             done

@@ -15,7 +15,7 @@ def main():
     
     # model
     parser.add_argument('--modelname', type=str, default='tf_model')
-    parser.add_argument('--input_dim', type=int, default=6992)
+    parser.add_argument('--input_dim', type=int, default=2000)
     parser.add_argument('--conv', type=str, default='TransformerConv') # GCNConv; GATConv
     parser.add_argument('--NUM_HIDDENS', type=str, default='512,64')
     parser.add_argument('--num_class', type=int, default=2)
@@ -29,7 +29,7 @@ def main():
     parser.add_argument('--grad_clip', type=float, default=5)
 
     # test
-    parser.add_argument('--test_save_path', type=str, default='best_model.pth')
+    parser.add_argument('--test_save_path', type=str, default='best_f1.pth')
     parser.add_argument('--pred', type=str, default='./results')
     parser.add_argument('--verbose', type=int, default=0)
 
@@ -37,7 +37,7 @@ def main():
     parser.add_argument('--seed', type=int, default=42)
 
     # cuda
-    parser.add_argument('--use_cuda', type=str,default=False)
+    parser.add_argument('--use_cuda', type=str,default=True)
 
     # yml name
     parser.add_argument('--ymlname', type=str, default='configure_default.yml')

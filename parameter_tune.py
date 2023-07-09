@@ -133,7 +133,7 @@ def train(cfg):
             best_epoch = epoch
     #src_emb, tar_emb = model.get_emb()
     f1 = val(cfg, model, tar)
-    return best_loss
+    return best_loss, f1
 
 if __name__ == '__main__':
     yaml_file = 'parameter_tune.yml'
@@ -143,17 +143,17 @@ if __name__ == '__main__':
 
     seed_everything(cfg['SEED'])
 
-    best_loss = train(cfg)
+    best_loss, f1 = train(cfg)
     # test(cfg)
     #best_f1s.append(f1)
     ## save_emb
     # save_emb(cfg)
-
 
     d1 = cfg['MODEL']['NUM_HIDDENS'][0]
     d2 = cfg['MODEL']['NUM_HIDDENS'][1]
     momentum = cfg['TRAIN']['Momentum']
     Wd = cfg['TRAIN']['Weight_decay']
     gd = cfg['TRAIN']['grad_clip']
-    msg = 'd1: %d, d2: %d, momentum: %.2f, Wd: %.2f, gd: %.2f, best_loss: %.4f, f1: %.4f\n'%(d1, d2, momentum, Wd, gd, best_loss)
+    msg = 'd1: %d, d2: %d, momentum: %.2f, Wd: %.2f, gd: %.2f, best_loss: %.4f, f1: %.4f\n'%(d1, d2, momentum, Wd, gd, best_loss,f1)
+    print (msg)
     txt.write(msg)
