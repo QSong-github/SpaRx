@@ -22,7 +22,7 @@ Spatial cellular heterogeneity contributes to the disease complexity and therape
 │      ├── target_data.csv
 │      ├── target_label.csv (optional)
 ```
-Example dataset is provided in https://www.dropbox.com/scl/fo/vzai7az362af74au8xqb8/h?rlkey=e7oht0ir80rf5xeqvefufbgsx&dl=0.
+Example datasets for running SpaRx are provided in https://www.dropbox.com/scl/fo/vzai7az362af74au8xqb8/h?rlkey=e7oht0ir80rf5xeqvefufbgsx&dl=0. This folder also contains the organized cell line (GDSC and CCLE) gene expression data (source_domain_expression.csv) and binarized drug response labels (source_domain_binary_labels.csv).
 
 ```
 ssh run_SpaxRx.sh
