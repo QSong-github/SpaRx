@@ -22,7 +22,7 @@ Spatial cellular heterogeneity contributes to the disease complexity and therape
 │      ├── target_data.csv
 │      ├── target_label.csv (optional)
 ```
-Example dataset is provided in https://www.dropbox.com/scl/fo/vzai7az362af74au8xqb8/h?rlkey=e7oht0ir80rf5xeqvefufbgsx&dl=0 
+Example dataset is provided in https://www.dropbox.com/scl/fo/vzai7az362af74au8xqb8/h?rlkey=e7oht0ir80rf5xeqvefufbgsx&dl=0.
 
 ```
 ssh run_SpaxRx.sh
