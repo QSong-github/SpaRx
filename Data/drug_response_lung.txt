@@ -1,0 +1,221 @@
+cancers	patient.arr	drug.name	drug.id	response
+LUAD	TCGA-05-4384	Cisplatin	DB00515	Clinical Progressive Disease
+LUAD	TCGA-05-4384	Vinorelbine	DB00361	Clinical Progressive Disease
+LUAD	TCGA-05-4384	Cisplatin	DB00515	Clinical Progressive Disease
+LUAD	TCGA-05-4384	Zoledronate	DB00399	Clinical Progressive Disease
+LUAD	TCGA-05-4390	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-05-4390	Vinorelbine	DB00361	Complete Response
+LUAD	TCGA-50-5930	Docetaxel	DB01248	Clinical Progressive Disease
+LUAD	TCGA-50-5933	Carboplatin	DB00958	Complete Response
+LUAD	TCGA-50-5933	Paclitaxel	DB01229	Complete Response
+LUAD	TCGA-50-5941	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-50-5941	Docetaxel	DB01248	Complete Response
+LUAD	TCGA-05-4427	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-05-4427	Vinorelbine	DB00361	Complete Response
+LUAD	TCGA-50-5051	Carboplatin	DB00958	Partial Response
+LUAD	TCGA-50-5051	Paclitaxel	DB01229	Partial Response
+LUAD	TCGA-50-5072	Carboplatin	DB00958	Clinical Progressive Disease
+LUAD	TCGA-50-5072	Paclitaxel	DB01229	Clinical Progressive Disease
+LUAD	TCGA-55-6968	"Chemo, NOS"	NA	Stable Disease
+LUAD	TCGA-55-6984	"Chemo, Multi-Agent, NOS"	NA	Complete Response
+LUAD	TCGA-55-6984	"Chemo, NOS"	NA	Clinical Progressive Disease
+LUAD	TCGA-91-6848	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-91-6848	Docetaxel	DB01248	Complete Response
+LUAD	TCGA-53-7624	Irinotecan	DB00762	Clinical Progressive Disease
+LUAD	TCGA-53-7624	Erlotinib	DB00530	Clinical Progressive Disease
+LUAD	TCGA-53-7624	Paclitaxel	DB01229	Clinical Progressive Disease
+LUAD	TCGA-53-7624	Docetaxel	DB01248	Clinical Progressive Disease
+LUAD	TCGA-53-7624	Gemcitabine	DB00441	Clinical Progressive Disease
+LUAD	TCGA-53-7624	Cisplatin	DB00515	Clinical Progressive Disease
+LUAD	TCGA-53-7624	Vinorelbine	DB00361	Clinical Progressive Disease
+LUAD	TCGA-53-7624	Carboplatin	DB00958	Clinical Progressive Disease
+LUAD	TCGA-53-7624	Bevacizumab	DB00112	Clinical Progressive Disease
+LUAD	TCGA-53-7624	Pemetrexed	DB00642	Clinical Progressive Disease
+LUAD	TCGA-53-7626	Cisplatin	DB00515	Clinical Progressive Disease
+LUAD	TCGA-53-7626	Docetaxel	DB01248	Clinical Progressive Disease
+LUAD	TCGA-86-7711	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-86-7711	Etoposide	DB00773	Complete Response
+LUAD	TCGA-86-7713	Etoposide	DB00773	Complete Response
+LUAD	TCGA-86-7713	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-91-7771	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-91-7771	Pemetrexed	DB00642	Complete Response
+LUAD	TCGA-69-7973	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-69-7973	Pemetrexed	DB00642	Complete Response
+LUAD	TCGA-69-7974	Pemetrexed	DB00642	Clinical Progressive Disease
+LUAD	TCGA-69-7974	Carboplatin	DB00958	Clinical Progressive Disease
+LUAD	TCGA-73-7498	Pemetrexed	DB00642	Complete Response
+LUAD	TCGA-73-7498	Carboplatin	DB00958	Complete Response
+LUAD	TCGA-73-7498	Pemetrexed	DB00642	Complete Response
+LUAD	TCGA-73-7498	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-86-7955	Etoposide	DB00773	Complete Response
+LUAD	TCGA-86-7955	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-44-8117	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-44-8117	Docetaxel	DB01248	Complete Response
+LUAD	TCGA-86-8054	Paclitaxel	DB01229	Complete Response
+LUAD	TCGA-86-8054	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-86-8075	Etoposide	DB00773	Complete Response
+LUAD	TCGA-86-8075	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-86-8076	Etoposide	DB00773	Complete Response
+LUAD	TCGA-86-8076	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-99-8033	Paclitaxel	DB01229	Stable Disease
+LUAD	TCGA-J2-8194	Carboplatin	DB00958	Clinical Progressive Disease
+LUAD	TCGA-J2-8194	Gemcitabine	DB00441	Clinical Progressive Disease
+LUAD	TCGA-J2-8194	Docetaxel	DB01248	Stable Disease
+LUAD	TCGA-86-8278	Etoposide	DB00773	Stable Disease
+LUAD	TCGA-86-8278	Cisplatin	DB00515	Stable Disease
+LUAD	TCGA-86-8278	Gefitinib	DB00317	Stable Disease
+LUAD	TCGA-86-8279	Etoposide	DB00773	Complete Response
+LUAD	TCGA-86-8279	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-62-8398	Carboplatin	DB00958	Complete Response
+LUAD	TCGA-62-8398	Vinorelbine	DB00361	Complete Response
+LUAD	TCGA-86-8669	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-86-8669	Etoposide	DB00773	Complete Response
+LUAD	TCGA-86-8671	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-86-8671	Etoposide	DB00773	Complete Response
+LUAD	TCGA-86-8674	Vinblastine	DB00570	Clinical Progressive Disease
+LUAD	TCGA-86-8674	Cisplatin	DB00515	Clinical Progressive Disease
+LUAD	TCGA-97-8547	Paclitaxel	DB01229	Complete Response
+LUAD	TCGA-97-8547	Carboplatin	DB00958	Complete Response
+LUAD	TCGA-44-A47F	Pemetrexed	DB00642	Complete Response
+LUAD	TCGA-44-A47F	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-55-A48X	Carboplatin	DB00958	Complete Response
+LUAD	TCGA-55-A48X	Pemetrexed	DB00642	Complete Response
+LUAD	TCGA-55-A48Y	Carboplatin	DB00958	Complete Response
+LUAD	TCGA-55-A48Y	Pemetrexed	DB00642	Complete Response
+LUAD	TCGA-62-A46U	Carboplatin	DB00958	Complete Response
+LUAD	TCGA-62-A46U	Vinorelbine	DB00361	Complete Response
+LUAD	TCGA-62-A46Y	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-62-A46Y	Vinorelbine	DB00361	Complete Response
+LUAD	TCGA-62-A471	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-62-A471	Vinorelbine	DB00361	Complete Response
+LUAD	TCGA-62-A471	Gemcitabine	DB00441	Complete Response
+LUAD	TCGA-86-A4D0	Etoposide	DB00773	Complete Response
+LUAD	TCGA-86-A4D0	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-53-A4EZ	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-53-A4EZ	Vinorelbine	DB00361	Complete Response
+LUAD	TCGA-55-A48Z	Cisplatin	DB00515	Stable Disease
+LUAD	TCGA-55-A48Z	Pemetrexed	DB00642	Stable Disease
+LUAD	TCGA-86-A4P8	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-86-A4P8	Pemetrexed	DB00642	Complete Response
+LUAD	TCGA-93-A4JP	Carboplatin	DB00958	Partial Response
+LUAD	TCGA-MP-A4T9	Vinorelbine	DB00361	Complete Response
+LUAD	TCGA-MP-A4T9	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-MP-A4T9	Gemcitabine	DB00441	Complete Response
+LUAD	TCGA-MP-A4TC	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-MP-A4TC	Vinorelbine	DB00361	Complete Response
+LUAD	TCGA-69-A59K	Cisplatin	DB00515	Stable Disease
+LUAD	TCGA-69-A59K	Pemetrexed	DB00642	Stable Disease
+LUAD	TCGA-95-A4VK	Cisplatin	DB00515	Stable Disease
+LUAD	TCGA-95-A4VK	Pemetrexed	DB00642	Stable Disease
+LUAD	TCGA-95-A4VP	Carboplatin	DB00958	Stable Disease
+LUAD	TCGA-95-A4VP	Paclitaxel	DB01229	Stable Disease
+LUAD	TCGA-MP-A4TD	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-MP-A4TD	Gemcitabine	DB00441	Complete Response
+LUAD	TCGA-MP-A4TF	Vinorelbine	DB00361	Partial Response
+LUAD	TCGA-MP-A4TF	Cisplatin	DB00515	Partial Response
+LUAD	TCGA-L9-A743	Docetaxel	DB01248	Complete Response
+LUAD	TCGA-L9-A743	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-L9-A7SV	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-L9-A7SV	Pemetrexed	DB00642	Complete Response
+LUAD	TCGA-49-AAR4	Paclitaxel	DB01229	Partial Response
+LUAD	TCGA-49-AAR4	Carboplatin	DB00958	Partial Response
+LUAD	TCGA-73-A9RS	Carboplatin	DB00958	Clinical Progressive Disease
+LUAD	TCGA-73-A9RS	Paclitaxel	DB01229	Clinical Progressive Disease
+LUAD	TCGA-73-A9RS	Bevacizumab	DB00112	Clinical Progressive Disease
+LUAD	TCGA-73-A9RS	Pemetrexed	DB00642	Clinical Progressive Disease
+LUAD	TCGA-73-A9RS	Docetaxel	DB01248	Clinical Progressive Disease
+LUAD	TCGA-05-4398	Carboplatin	DB00958	Complete Response
+LUAD	TCGA-05-4398	Etoposide	DB00773	Complete Response
+LUAD	TCGA-05-4402	Carboplatin	DB00958	Complete Response
+LUAD	TCGA-05-4402	Vinorelbine	DB00361	Complete Response
+LUAD	TCGA-05-4402	Erlotinib	DB00530	Complete Response
+LUAD	TCGA-05-4432	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-05-4432	Vinorelbine	DB00361	Complete Response
+LUAD	TCGA-05-5425	Paclitaxel	DB01229	Clinical Progressive Disease
+LUAD	TCGA-05-5425	Carboplatin	DB00958	Clinical Progressive Disease
+LUAD	TCGA-05-5425	Gefitinib	DB00317	Clinical Progressive Disease
+LUAD	TCGA-05-5428	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-05-5428	Vinorelbine	DB00361	Complete Response
+LUAD	TCGA-50-5066	Carboplatin	DB00958	Stable Disease
+LUAD	TCGA-50-5066	Paclitaxel	DB01229	Stable Disease
+LUAD	TCGA-50-5066	Bevacizumab	DB00112	Stable Disease
+LUAD	TCGA-50-5068	Paclitaxel	DB01229	Clinical Progressive Disease
+LUAD	TCGA-64-5778	Erlotinib	DB00530	Clinical Progressive Disease
+LUAD	TCGA-64-5779	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-64-5779	Pemetrexed	DB00642	Complete Response
+LUAD	TCGA-64-5781	Cisplatin	DB00515	Complete Response
+LUAD	TCGA-64-5781	Gemcitabine	DB00441	Complete Response
+LUAD	TCGA-64-5781	Bevacizumab	DB00112	Complete Response
+LUAD	TCGA-64-5815	Gemcitabine	DB00441	Complete Response
+LUAD	TCGA-64-5815	Carboplatin	DB00958	Complete Response
+LUAD	TCGA-64-5815	Carboplatin	DB00958	Complete Response
+LUAD	TCGA-64-5815	Pemetrexed	DB00642	Complete Response
+LUSC	TCGA-43-5668	Gemcitabine	DB00441	Clinical Progressive Disease
+LUSC	TCGA-43-6647	Paclitaxel	DB01229	Complete Response
+LUSC	TCGA-43-6647	Carboplatin	DB00958	Complete Response
+LUSC	TCGA-90-6837	Docetaxel	DB01248	Complete Response
+LUSC	TCGA-90-6837	Cisplatin	DB00515	Complete Response
+LUSC	TCGA-90-6837	Gemcitabine	DB00441	Complete Response
+LUSC	TCGA-92-8063	Carboplatin	DB00958	Complete Response
+LUSC	TCGA-58-8387	Cisplatin	DB00515	Complete Response
+LUSC	TCGA-58-8387	Vinorelbine	DB00361	Complete Response
+LUSC	TCGA-85-8351	Cisplatin	DB00515	Complete Response
+LUSC	TCGA-85-8351	Etoposide	DB00773	Complete Response
+LUSC	TCGA-58-8391	Carboplatin	DB00958	Complete Response
+LUSC	TCGA-58-8391	Gemcitabine	DB00441	Complete Response
+LUSC	TCGA-43-A474	Carboplatin	DB00958	Complete Response
+LUSC	TCGA-43-A474	Docetaxel	DB01248	Complete Response
+LUSC	TCGA-43-A475	Cisplatin	DB00515	Complete Response
+LUSC	TCGA-43-A475	Docetaxel	DB01248	Complete Response
+LUSC	TCGA-56-A4BW	Carboplatin	DB00958	Complete Response
+LUSC	TCGA-56-A4BW	Paclitaxel	DB01229	Complete Response
+LUSC	TCGA-58-A46J	Carboplatin	DB00958	Complete Response
+LUSC	TCGA-58-A46J	Vinorelbine	DB00361	Complete Response
+LUSC	TCGA-58-A46K	Carboplatin	DB00958	Complete Response
+LUSC	TCGA-58-A46K	Vinorelbine	DB00361	Complete Response
+LUSC	TCGA-58-A46L	Carboplatin	DB00958	Complete Response
+LUSC	TCGA-58-A46L	Docetaxel	DB01248	Complete Response
+LUSC	TCGA-J1-A4AH	Cisplatin	DB00515	Complete Response
+LUSC	TCGA-J1-A4AH	Gemcitabine	DB00441	Complete Response
+LUSC	TCGA-90-A4EE	Cisplatin	DB00515	Complete Response
+LUSC	TCGA-90-A4EE	Docetaxel	DB01248	Complete Response
+LUSC	TCGA-96-A4JK	Gemcitabine	DB00441	Complete Response
+LUSC	TCGA-96-A4JK	Cisplatin	DB00515	Complete Response
+LUSC	TCGA-96-A4JL	Gemcitabine	DB00441	Complete Response
+LUSC	TCGA-96-A4JL	Carboplatin	DB00958	Complete Response
+LUSC	TCGA-68-A59I	Paclitaxel	DB01229	Clinical Progressive Disease
+LUSC	TCGA-68-A59I	Carboplatin	DB00958	Clinical Progressive Disease
+LUSC	TCGA-68-A59I	Docetaxel	DB01248	Clinical Progressive Disease
+LUSC	TCGA-68-A59I	Erlotinib	DB00530	Clinical Progressive Disease
+LUSC	TCGA-85-A50Z	Etoposide	DB00773	Complete Response
+LUSC	TCGA-85-A50Z	Cisplatin	DB00515	Complete Response
+LUSC	TCGA-L3-A524	Cisplatin	DB00515	Complete Response
+LUSC	TCGA-L3-A524	Gemcitabine	DB00441	Complete Response
+LUSC	TCGA-43-A56V	Carboplatin	DB00958	Complete Response
+LUSC	TCGA-43-A56V	Docetaxel	DB01248	Complete Response
+LUSC	TCGA-90-A59Q	Cisplatin	DB00515	Complete Response
+LUSC	TCGA-NC-A5HE	Cisplatin	DB00515	Complete Response
+LUSC	TCGA-NC-A5HE	Vinorelbine	DB00361	Complete Response
+LUSC	TCGA-NC-A5HG	Cisplatin	DB00515	Complete Response
+LUSC	TCGA-NC-A5HG	Vinorelbine	DB00361	Complete Response
+LUSC	TCGA-NC-A5HI	Vinorelbine	DB00361	Complete Response
+LUSC	TCGA-NC-A5HJ	Cisplatin	DB00515	Clinical Progressive Disease
+LUSC	TCGA-NC-A5HJ	Pemetrexed	DB00642	Clinical Progressive Disease
+LUSC	TCGA-NC-A5HK	Cisplatin	DB00515	Complete Response
+LUSC	TCGA-NC-A5HK	Vinorelbine	DB00361	Complete Response
+LUSC	TCGA-NC-A5HO	Carboplatin	DB00958	Complete Response
+LUSC	TCGA-NC-A5HO	Vinorelbine	DB00361	Complete Response
+LUSC	TCGA-NC-A5HP	Cisplatin	DB00515	Clinical Progressive Disease
+LUSC	TCGA-NC-A5HP	Vinorelbine	DB00361	Clinical Progressive Disease
+LUSC	TCGA-NC-A5HP	Docetaxel	DB01248	Clinical Progressive Disease
+LUSC	TCGA-NC-A5HP	Gemcitabine	DB00441	Clinical Progressive Disease
+LUSC	TCGA-NC-A5HQ	Carboplatin	DB00958	Complete Response
+LUSC	TCGA-NC-A5HQ	Vinorelbine	DB00361	Complete Response
+LUSC	TCGA-NC-A5HR	Carboplatin	DB00958	Complete Response
+LUSC	TCGA-NC-A5HR	Vinorelbine	DB00361	Complete Response
+LUSC	TCGA-NC-A5HT	Paclitaxel	DB01229	Partial Response
+LUSC	TCGA-NC-A5HT	Gemcitabine	DB00441	Clinical Progressive Disease
+LUSC	TCGA-33-AASI	Docetaxel	DB01248	Stable Disease
+LUSC	TCGA-33-AASI	Gemcitabine	DB00441	Stable Disease
+LUSC	TCGA-34-5240	Cisplatin	DB00515	Stable Disease
+LUSC	TCGA-34-5240	Docetaxel	DB01248	Stable Disease
